@@ -11358,11 +11358,14 @@ a.text-dark:focus {
 
 .calander .col-md {
   padding: 0;
-  min-height: 100px;
 }
 
 .calander {
   margin: 20px;
+}
+
+.calander * {
+  word-wrap: break-word;
 }
 
 .day-date {
@@ -11374,5 +11377,6 @@ a.text-dark:focus {
 .day-content {
   width: 100%;
   padding: 5px;
+  min-height: 100px;
 }
 
