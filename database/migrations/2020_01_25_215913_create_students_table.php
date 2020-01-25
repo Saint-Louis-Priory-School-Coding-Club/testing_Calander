@@ -18,7 +18,7 @@ class CreateStudentsTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->integer('student_id');
-            $table->text('schedule');
+            $table->json('schedule');
             $table->timestamps();
         });
     }
