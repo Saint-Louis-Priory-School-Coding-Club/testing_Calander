@@ -16,13 +16,22 @@
 }
 
 .day-date {
-    width:100%;
+    width: 100%;
     background: #dee2e6;
-    padding:5px;
-}
-.day-content {
-    width:100%;
     padding: 5px;
-    min-height:100px;
+}
+
+.day-content {
+    width: 100%;
+    padding: 5px;
+    min-height: 100px;
     word-wrap: break-word;
+}
+
+.test {
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+    padding:2px;
+    margin: 1px 2px;
 }

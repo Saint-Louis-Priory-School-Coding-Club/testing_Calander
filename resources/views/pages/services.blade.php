@@ -3,13 +3,15 @@
 @section('content')
     <div class="container-fluid">
         <div class="calander">
-            <div class="row">
+            <div class="row border">
                 <div class="col-md border bg-light">
                     <div class="day-date">
                         <b>Mon 1/27</b>
                     </div>
                     <div class="day-content">
-                        test content goes
+                        <div class="test" style="border-color: #0f6674">
+                            This test lol
+                        </div>
                     </div>
                 </div>
                 <div class="col-md border bg-light">
@@ -17,7 +19,7 @@
                         <b>Tue 1/27</b>
                     </div>
                     <div class="day-content">
-                        test content goes here
+                        test content goes
                     </div>
                 </div>
                 <div class="col-md border bg-light">
@@ -45,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row border">
                 <div class="col-md border bg-light">
                     <div class="day-date">
                         <b>Mon 1/27</b>

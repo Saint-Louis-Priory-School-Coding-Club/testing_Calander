@@ -11364,10 +11364,6 @@ a.text-dark:focus {
   margin: 20px;
 }
 
-.calander * {
-  word-wrap: break-word;
-}
-
 .day-date {
   width: 100%;
   background: #dee2e6;
@@ -11378,5 +11374,14 @@ a.text-dark:focus {
   width: 100%;
   padding: 5px;
   min-height: 100px;
+  word-wrap: break-word;
+}
+
+.test {
+  border-radius: 2px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 2px;
+  margin: 1px 2px;
 }
 
