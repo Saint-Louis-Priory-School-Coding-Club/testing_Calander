@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Tue 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Wed 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Thu 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Fri 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Tue 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Wed 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Thu 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-md border bg-light">
                     <div class="day-date">
-                        <b>Mon 1/27</b>
+                        <b>Fri 1/27</b>
                     </div>
                     <div class="day-content">
                         test content goes here
