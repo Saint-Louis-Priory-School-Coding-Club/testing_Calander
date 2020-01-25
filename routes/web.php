@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('/groups', 'PagesController@groups');

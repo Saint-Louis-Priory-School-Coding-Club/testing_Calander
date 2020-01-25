@@ -18,8 +18,7 @@ class CreateStudentsTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->integer('student_id');
-            $table->json('schedule');
-            $table->timestamps();
+            $table->json('schedule')->default('{"day1":{"class1":"math","class2":"science","class3":"english","class4":"language","class5":"worldHistory","class6":"doctrine","class7":"art"},"day2":{"class1":"math","class2":"science","class3":"english","class4":"language","class5":"worldHistory","class6":"doctrine","class7":"art"},"day3":{"class1":"math","class2":"science","class3":"english","class4":"language","class5":"worldHistory","class6":"doctrine","class7":"art"},"day4":{"class1":"math","class2":"science","class3":"english","class4":"language","class5":"worldHistory","class6":"doctrine","class7":"art"},"day5":{"class1":"math","class2":"science","class3":"english","class4":"language","class5":"worldHistory","class6":"doctrine","class7":"art"}}');
         });
     }
 
