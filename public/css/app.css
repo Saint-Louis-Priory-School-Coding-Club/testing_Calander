@@ -11357,10 +11357,22 @@ a.text-dark:focus {
 }
 
 .calander .col-md {
-  padding: 10px;
+  padding: 0;
+  min-height: 100px;
 }
 
 .calander {
-  padding: 20px;
+  margin: 20px;
+}
+
+.day-date {
+  width: 100%;
+  background: #ddd;
+  padding: 5px;
+}
+
+.day-content {
+  width: 100%;
+  padding: 5px;
 }
 
