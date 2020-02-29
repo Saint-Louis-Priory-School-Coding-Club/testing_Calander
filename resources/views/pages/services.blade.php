@@ -10,7 +10,10 @@
                     </div>
                     <div class="day-content">
                         <div class="test" style="border-color: #0f6674">
-                            This test lol
+                            World History
+                        </div>
+                        <div class="test" style="border-color: #990066">
+                            Latin
                         </div>
                     </div>
                 </div>
