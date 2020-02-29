@@ -10,10 +10,23 @@
                     </div>
                     <div class="day-content">
                         <div class="test" style="border-color: #0f6674">
-                            World History
+                            <b>World History</b><span class="float-right expand"><i
+                                    class="fas fa-chevron-down"></i></span>
                         </div>
-                        <div class="test" style="border-color: #990066">
-                            Latin
+                        <div class="test" style="border-color: #9012a5">
+                            <b>Latin</b>
+                        </div>
+                        <div class="test" style="border-color: #0f6674">
+                            <b>World History</b>
+                        </div>
+                        <div class="test" style="border-color: #9012a5">
+                            <b>Latin</b>
+                        </div>
+                        <div class="test" style="border-color: #0f6674">
+                            <b>World History</b>
+                        </div>
+                        <div class="test" style="border-color: #9012a5">
+                            <b>Latin</b>
                         </div>
                     </div>
                 </div>
