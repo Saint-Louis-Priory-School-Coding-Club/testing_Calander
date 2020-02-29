@@ -51,7 +51,7 @@
                         <b>Tue 1/27</b>
                     </div>
                     <div class="day-content">
-                        test content goes
+                        test content goes here
                     </div>
                 </div>
                 <div class="col-md border bg-light">
