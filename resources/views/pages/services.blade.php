@@ -10,7 +10,7 @@
                     </div>
                     <div class="day-content">
                         <div class="test" style="border-color: #0f6674">
-                            World History
+                            History
                         </div>
                         <div class="test" style="border-color: #990066">
                             Latin
