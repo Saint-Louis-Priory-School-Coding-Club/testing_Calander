@@ -10,8 +10,20 @@
                     </div>
                     <div class="day-content">
                         <div class="test" style="border-color: #0f6674">
-                            <b>World History</b><span class="float-right expand"><i
-                                    class="fas fa-chevron-down"></i></span>
+                            <div>
+                                <b>World History</b><span class="float-right expand"><a data-toggle="collapse"
+                                                                                        href="#collapseExample"
+                                                                                        role="button"
+                                                                                        aria-controls="collapseExample"><i
+                                            class="fas fa-chevron-down"></i></a></span>
+                            </div>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                    cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
                         </div>
                         <div class="test" style="border-color: #9012a5">
                             <b>Latin</b>

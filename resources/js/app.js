@@ -1,2 +1,2 @@
-require('./bootstrap');
+require('./bootstrap.js');
 require('./fontawesome.min');
