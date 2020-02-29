@@ -12,4 +12,7 @@
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('/groups', 'PagesController@groups');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
