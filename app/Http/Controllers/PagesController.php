@@ -21,6 +21,6 @@ class PagesController extends Controller
 
     public function login()
     {
-        return view('login.services');
+        return view('pages.login');
     }
 }
