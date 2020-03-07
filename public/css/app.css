@@ -11427,3 +11427,21 @@ body {
   margin-top: -85px;
 }
 
+.pfix {
+  margin-bottom: 0;
+}
+
+.class-select {
+  margin-top: 15px;
+}
+
+.class-select-in {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .class-select-in {
+    width: 300px;
+  }
+}
+
