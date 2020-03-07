@@ -18,20 +18,27 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">other subjects</a>
         </div>-->
-        <div class="text-right class-select">
-            <form class="d-inline-block pfix class-select-in">
-                <div class="form-group pfix text-left">
-                    <label for="exampleFormControlSelect1"><b>Select Class</b></label>
-                    <select class="form-control" id="exampleFormControlSelect1" onchange="updatecal(this)">
-                        <option>class</option>
-                        <option>geometre</option>
-                        <option>algebruhh</option>
-                        <option>lingua latina</option>
-                        <option>theogy</option>
-                    </select>
+        <div class="row" style="margin-top:15px;">
+            <div class="col-md">
+                <h1><i class="fas fa-calendar"></i> Testing Caleaeeandr</h1>
+            </div>
+            <div class="col-md">
+                <div class="text-right class-select">
+                    <form class="d-inline-block pfix class-select-in">
+                        <div class="form-group pfix text-left">
+                            <select class="form-control" id="exampleFormControlSelect1" onchange="updatecal(this)">
+                                <option>class</option>
+                                <option>geometre</option>
+                                <option>algebruhh</option>
+                                <option>lingua latina</option>
+                                <option>theology of the body</option>
+                            </select>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </div>
         </div>
+
 
         <div class="calander">
             <div class="row border">
@@ -40,20 +47,55 @@
                         <b>Mon 1/27</b>
                     </div>
                     <div class="day-content">
+                        <div class="test" style="border-color: #ffabff">
+                            <div>
+                                <b>World History</b>
+                                <span class="float-right expand">
+                                    <a data-toggle="collapse"
+                                       href="#col69"
+                                       role="button"
+                                       aria-controls="col69">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a></span>
+                            </div>
+                            <div class="collapse" id="col69">
+                                <p><i class="fas fa-user-graduate"></i> 12</p>
+                                <p><i class="fas fa-chalkboard-teacher"></i> Ms. Teacher</p>
+                                <p onclick="showmore(this)"><a href="#"><i class="fas fa-ellipsis-h"></i> Show More</a></p>
+                            </div>
+                        </div>
                         <div class="test" style="border-color: #123456">
                             <div>
                                 <b>Latin</b>
                                 <span class="float-right expand">
                                     <a data-toggle="collapse"
-                                       href="#col2"
+                                       href="#col12"
                                        role="button"
-                                       aria-controls="col2">
+                                       aria-controls="col12">
                                         <i class="fas fa-chevron-down"></i>
                                     </a></span>
                             </div>
-                            <div class="collapse" id="col2">
+                            <div class="collapse" id="col12">
                                 <p><i class="fas fa-user-graduate"></i> 32</p>
                                 <p><i class="fas fa-chalkboard-teacher"></i> Ms. Teacher</p>
+                                <p onclick="showmore(this)"><a href="#"><i class="fas fa-ellipsis-h"></i> Show More</a></p>
+                            </div>
+                        </div>
+                        <div class="test" style="border-color: #001299">
+                            <div>
+                                <b>Astronomy</b>
+                                <span class="float-right expand">
+                                    <a data-toggle="collapse"
+                                       href="#col121"
+                                       role="button"
+                                       aria-controls="col121">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a></span>
+                            </div>
+                            <div class="collapse" id="col121">
+                                <p><i class="fas fa-user-graduate"></i> 32</p>
+                                <p><i class="fas fa-chalkboard-teacher"></i> Ms. Teacher</p>
+                                <p onclick="showmore(this)"><a href="#"><i class="fas fa-ellipsis-h"></i> Show More</a></p>
                             </div>
                         </div>
                     </div>
@@ -95,6 +137,7 @@
                                 <p><i class="fas fa-chalkboard-teacher"></i> Ms. Teacher</p>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-md border bg-light">
@@ -417,6 +460,9 @@
     <script>
         function updatecal(thisParameter) {
             let cls = thisParameter.value; // class name that just got selected
+        }
+        function showmore(thisParameter) {
+
         }
     </script>
 @endsection
