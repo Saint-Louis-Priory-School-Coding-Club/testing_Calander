@@ -11361,7 +11361,7 @@ a.text-dark:focus {
 }
 
 .calander {
-  margin: 20px;
+  margin: 15px;
 }
 
 .day-date {
@@ -11385,6 +11385,18 @@ a.text-dark:focus {
   background: #eee;
 }
 
+.mr-0 {
+  margin-right: 0;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.d-block {
+  display: block;
+}
+
 .expand {
   margin-right: 2px;
 }
@@ -11400,11 +11412,11 @@ body {
 }
 
 #login .container #login-row #login-column #login-box {
-  margin-top: 120px;
   max-width: 600px;
   height: 320px;
   border: 1px solid #9C9C9C;
   background-color: #EAEAEA;
+  border-radius: 5px;
 }
 
 #login .container #login-row #login-column #login-box #login-form {

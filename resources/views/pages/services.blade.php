@@ -1,26 +1,33 @@
 @extends('layouts.app')
 @extends('layouts.nav')
 @section('content')
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Choose Class
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Maths</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Prealgebra</a>
-    <a class="dropdown-item" href="#">Algebra I</a>
-    <a class="dropdown-item" href="#">Algebra II</a>
-    <a class="dropdown-item" href="#">Precalculus</a>
-    <a class="dropdown-item" href="#">Calc. AB</a>
-    <a class="dropdown-item" href="#">Calc. BC</a>
-    <a class="dropdown-item" href="#">Statistics</a>
-    <a class="dropdown-item" href="#">Multivar Calc.</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">other subjects</a>
-  </div>
-</div>
+
     <div class="container-fluid">
+        <!--
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Maths</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Prealgebra</a>
+            <a class="dropdown-item" href="#">Algebra I</a>
+            <a class="dropdown-item" href="#">Algebra II</a>
+            <a class="dropdown-item" href="#">Precalculus</a>
+            <a class="dropdown-item" href="#">Calc. AB</a>
+            <a class="dropdown-item" href="#">Calc. BC</a>
+            <a class="dropdown-item" href="#">Statistics</a>
+            <a class="dropdown-item" href="#">Multivar Calc.</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">other subjects</a>
+        </div>-->
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
         <div class="calander">
             <div class="row border">
                 <div class="col-md border bg-light">
