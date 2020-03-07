@@ -25,8 +25,21 @@
         <h6>Teacher Notes:</h6>
         <p>&nbsp;This test concerns the basics of derivation that we have reviewed in class. You will be expected to derive simple expressions while also using the quotient rule, product rule, and chain rule. </p>
         <hr>
-        <h6><i class="fas fa-user-graduate"></i> Class Roster:</h6>
-        <p>&nbsp;a<br>&nbsp;b<br>&nbsp;c<br>&nbsp;d<br>&nbsp;e</p>
+        <div>
+            <h6><i class="fas fa-user-graduate"></i> Class Roster 
+            <span class="expand">
+                    <a data-toggle="collapse"
+                        href="#col69"
+                        role="button"
+                        aria-controls="col69">
+                        <i class="fas fa-chevron-down"></i>
+                    </a></span>
+        
+            </h6>
+        </div>
+        <div class="collapse" id="col69">
+            <p>&nbsp;jo <br>&nbsp;a <br>&nbsp;b</p>
+        </div>
         </div>
         <div class="modal-footer">
         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
