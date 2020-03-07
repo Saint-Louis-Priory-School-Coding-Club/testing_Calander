@@ -91,5 +91,9 @@ body {
         width: 300px;
     }
 }
-
-
+.add-test {
+    display:none;
+}
+.day-content:hover .add-test {
+    display:block;
+}

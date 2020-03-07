@@ -11431,10 +11431,6 @@ body {
   margin-bottom: 0;
 }
 
-.class-select {
-  margin-top: 15px;
-}
-
 .class-select-in {
   width: 100%;
 }
@@ -11443,5 +11439,13 @@ body {
   .class-select-in {
     width: 300px;
   }
+}
+
+.add-test {
+  display: none;
+}
+
+.day-content:hover .add-test {
+  display: block;
 }
 

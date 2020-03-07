@@ -49,7 +49,7 @@
                     <div class="day-content">
                         <div class="test" style="border-color: #ffabff">
                             <div>
-                                <b>World History</b>
+                                <b>World History</b> Test
                                 <span class="float-right expand">
                                     <a data-toggle="collapse"
                                        href="#col69"
@@ -66,7 +66,7 @@
                         </div>
                         <div class="test" style="border-color: #123456">
                             <div>
-                                <b>Latin</b>
+                                <b>Latin</b> Quiz
                                 <span class="float-right expand">
                                     <a data-toggle="collapse"
                                        href="#col12"
@@ -83,7 +83,7 @@
                         </div>
                         <div class="test" style="border-color: #001299">
                             <div>
-                                <b>Astronomy</b>
+                                <b>Astronomy</b> Quiz
                                 <span class="float-right expand">
                                     <a data-toggle="collapse"
                                        href="#col121"
