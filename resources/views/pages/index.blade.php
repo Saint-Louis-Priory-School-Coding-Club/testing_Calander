@@ -22,7 +22,7 @@
             <form class="d-inline-block pfix class-select-in">
                 <div class="form-group pfix text-left">
                     <label for="exampleFormControlSelect1"><b>Select Class</b></label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <select class="form-control" id="exampleFormControlSelect1" onchange="updatecal(this)">
                         <option>class</option>
                         <option>geometre</option>
                         <option>algebruhh</option>
@@ -414,4 +414,9 @@
             </div>
         </div>
     </div>
+    <script>
+        function updatecal(thisParameter) {
+            let cls = thisParameter.value; // class name that just got selected
+        }
+    </script>
 @endsection
