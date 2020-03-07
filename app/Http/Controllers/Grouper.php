@@ -14,6 +14,7 @@ class Controller extends BaseController
         $classList = App\Classes::select('alias', 'class_id')->get();
         $totalGroupArray = array();
         $totalStudentGroup = array();
+        $students = App\Students::where('class_id', $classRoster)->get();
         foreach ($classList as $class) {
             $totalGroupArray[$class['class_id']] = alias_test($class);
         }
@@ -29,19 +30,44 @@ class Controller extends BaseController
         foreach($finalGroups as $group) {
             array_push($realFinalGroups, serialize($group));
         }
-        return $realFinalGroups;
+        $realFinalGroups = serialize($realFinalGroups);
+        //return $realFinalGroups;
+        $updateClass = App\Classes::where('class_id', $classID);
+        $updateClass->groups = $realFinalGroups;
+        $updateClass->add_groups();
     }
 
-    public function assignTest($classID) {
+    public function assignTest($classID, $testData) {
+        $classSchedual = App\Classes::where('class_id', $classID)->select('schedual')->get();
+        $oldSched = unserialize($classSchedual);
+        array_push($oldSched, $testData);
+        $newSched = serialize($oldSched);
+        $classSchedual->schedual = $newSched;
+        $classSchedual->add_test();
 
     }
 
     public function fetchTests($classID) {
-
+        $classSchedual = App\Classes::where('class_id', $classID)->select('schedual')->get();
+        $oldSched = unserialize($classSchedual);
+        return $oldSched;
     }
 
-    public function deleteTest($testID) {
-
+    public function deleteTest($classID, $testID) {
+        $classSchedual = App\Classes::where('class_id', $classID)->select('schedual')->get();
+        $oldSched = unserialize($classSchedual);
+        foreach($oldSched as $key => $test) {
+            if(!isset($test['test_id'])) {
+                return 'Error: Test ID '.$testID.' doesn\'t exist';
+            }
+            if($test['test_id'] == $testID) {
+                unset($oldSched[$key]);
+            }
+        }
+        array_push($oldSched, $testData);
+        $newSched = serialize($oldSched);
+        $classSchedual->schedual = $newSched;
+        $classSchedual->add_test();
     }
 
     public function array_equal($array1, $array2) {
